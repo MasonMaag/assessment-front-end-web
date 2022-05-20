@@ -1,8 +1,9 @@
-var myArray = ['Mcdonalds', 'Chipotle', 'Taco Bell'];
+const rest = ['Mcdonalds','Taco Bell','Chipotle'];
 
-const randomRestaurant = array[Math.floor(Math.random() * array.length)];
+const randomRest = Math.floor(Math.random() * rest.length);
+console.log(randomRest, rest[randomRest]);
 
-function randomRestaurant(arr, last = undefined) {
+function randomRestaurant (arr, last = undefined) {
     if (arr.length === 0) {
       return null;
     } else if (arr.length === 1) {
@@ -14,5 +15,5 @@ function randomRestaurant(arr, last = undefined) {
       } while (arr[num] === last);
       return arr[num];
     }
-  }
+}
 

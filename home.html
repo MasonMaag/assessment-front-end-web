@@ -16,25 +16,44 @@
 	</nav>
 
 	<content>
-		<h1>Welcome to this little website.</h1>
-		<p>Hello World</p>
-		<p>Welcome to the cat website! We have a bunch of info about cats!</p>
+	<div>
+		<h1>The Cats Meow!</h1>
+	</div>
+	<img id="cat" src="https://th.bing.com/th/id/OIP.EijbJZJcTsWOr4sM3RyGqQHaEH?w=312&h=180&c=7&r=0&o=5&pid=1.7">
+	<div>
+		<p>Welcome to the Cats Meow website! Take a look around and learn more about cats! </p>
+	</div>
+	<div>
+		<h2>Big Cat Questions:</h2>
 		<ul>
-			<li>Lions</li>
-			<li>Bobcat</li>
-			<li>Cheetah</li>
+			<li>Lion - Do they meow or roar?</li>
+			<button class="lionbtn" style="margin-top: 10px">Click for the answer</button>
+			<li style="margin-top: 10px">Bobcat - Are all Bobcats named Bob?</li>
+			<button class="bobbtn" style="margin-top: 10px">Click for the answer</button>
+			<li style="margin-top: 10px">Cheetah - Can they run faster than turtle?</li>
+			<button class="cheetbtn" class="cheetbtn" style="margin-top: 10px" >Click for the answer</button>
 		</ul>
-		<img id="cat" src="https://th.bing.com/th/id/OIP.EijbJZJcTsWOr4sM3RyGqQHaEH?w=312&h=180&c=7&r=0&o=5&pid=1.7">
-
-		<h2>Contact Us</h2>
+	</div>
+	<div>
+		<h2>Small Cat Questions:</h2>
+		<ul>
+			<li>Singapura - Are they from Singapore?</li>
+			<button class="singbtn" style="margin-top: 10px">Click for the answer</button>
+			<li style="margin-top: 10px">Munchkin - Are they small?</li>
+			<button class="munchbtn"style="margin-top: 10px">Click for the answer</button>
+			<li style="margin-top: 10px">Cornish Rex - Are they bigger than a ear of corn or a T-Rex?</li>
+			<button class="cornbtn" style="margin-top: 10px">Click for the answer</button>
+		</ul>
+	</div>
+		<h2>Contact Us:</h2>
 		<form id="contact">
 			Your name:
-			<input type="text">
+			<input type="text" style="margin-bottom: 10px">
 
 			Message:
-			<input type="textarea">
+			<input type="textarea" style="margin-bottom: 10px">
 			<div class="dropdown">
-				<button class="dropbtn">How did you hear about us?</button>
+				<button class="dropbtn" style="margin-top: 10px">How did you hear about us?</button>
 				<div class="dropdown-content">
 				  <input type="checkbox">
 				  <a>Google</a>
@@ -43,14 +62,20 @@
 				  <input type="checkbox">
 				  <a>Other</a>
 				</div>
-			  </div>
 
-			<input type="submit">
-		</form>
-	</content>
-
-
-	<script src="about.js"></script>
+				<input type="submit" class="subBtn" style="margin-left: 175px">
+			</form>
+			<br>
+		
+			<div>
+				<footer>
+					<h3 class="footer">You have reached the bottom of the page!</h3>
+				</footer>
+			</div>
+		</content>
+		
+		
+		<script src="about.js"></script>
 
 </body>
 </html>
